@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Explorando a Biologia Celular</title>
@@ -9,58 +11,116 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-success bg-gradient">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">Features</a>
-              <a class="nav-link" href="#">Pricing</a>
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            <a class="navbar-brand" href="#">BioMaket</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="menu.html">Home</a>
+                    <a class="nav-link" href="cinesina.html">Cinesina</a>
+                    <a class="nav-link" href="ciclose.html">Ciclose</a>
+                    <a class="nav-link" href="citoesqueleto.html">Citoesqueleto</a>
+                    <a class="nav-link" href="citoplasma.html">Citoplama</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    </br>
+    <div class="mx-auto p-2 card text-center text-bg-success mb-3" style="max-width: 60rem;">
+        <div class="card-header">Descubra os segredos da célula vegetal.</div>
+        <div class="card-body">
+            <h5 class="card-title">Explore o fascinante mundo do citoplasma, das cinesinas, do citoesqueleto e da
+                ciclose.</h5>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/l1sw6PRbKbI?si=LHx-5Wp2tRgR23MV"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+    </br>
+    <div class="container mx-45">
+        <div class="row justify-content-center">
+            <div class="col">
+                <div class="card text-bg-light">
+                    <img src="../img/ciclose.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Ciclose</h5>
+                        <p class="card-text">aaaaaaaao</p>
+                        <a href="ciclose.html" class="btn btn-success">Ir</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-bg-light">
+                    <img src="../img/cinesina.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Cinesina</h5>
+                        <p class="card-text">teste</p>
+                        <a href="cinesina.html" class="btn btn-success">Ir</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-bg-light">
+                    <img src="../img/citoesqueleto.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Citoesqueleto</h5>
+                        <p class="card-text">teste</p>
+                        <a href="citoesqueleto.html" class="btn btn-success">Ir</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-bg-light">
+                    <img src="../img/citoplasma.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Citoplasma</h5>
+                        <p class="card-text">teste teste</p>
+                        <a href="citoplasma.html" class="btn btn-success">Ir</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </br>
+    <div class="card mx-auto p-2 mb-3" style="max-width: 1080px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="../img/citoesqueleto.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Aprenda Como as Células Funcionam</h5>
+              <p class="card-text">Entenda os processos fundamentais que sustentam a vida em cada célula do seu corpo.</p>
+              <a href="citoesqueleto.html" class="btn btn-success">Quero Explorar a Biologia Celular</a>
             </div>
           </div>
         </div>
-      </nav>
-    <header class="hero">
-        <div class="overlay">
-            <h1>Descubra os segredos da célula viva!</h1>
-            <p>Explore o fascinante mundo do citoplasma, das cinesinas, do citoesqueleto e da ciclose.</p>
-            <button id="playVideo">Aperte o play para aprender mais</button>
-            <video id="promoVideo" controls>
-                <source src="../video/Quais as diferenças entre as proteínas motoras dineínas e cinesinas_.mp4" type="video/mp4">
-                Seu navegador não suporta vídeos.
-            </video>
+    </div>
+
+    <div class="container px-4 text-center bg-success bg-gradient">
+        <div class="row justify-content-center">
+          <div class="col">
+           <div class="p-3">Função do Citoplasma</div>
+          </div>
+          <div class="col">
+            <div class="p-3">Movimentação pela Cinesina</div>
+          </div>
+          <div class="col">
+            <div class="p-3">Estrutura do Citoesqueleto</div>
+          </div>
+          <div class="col">
+            <div class="p-3">Importância da Ciclose</div>
+          </div>
         </div>
-    </header>
-
-    <section class="features">
-        <a href="citoplasma.html" class="feature-item">Citoplasma: A base da vida celular</a>
-        <a href="cinesina.html" class="feature-item">Cinesina: O motor das células</a>
-        <a href="citoesqueleto.html" class="feature-item">Citoesqueleto: A estrutura dinâmica</a>
-        <a href="ciclose.html" class="feature-item">Ciclose: O movimento intracelular</a>
-    </section>
-
-    <section class="call-to-action">
-        <img src="../img/citoesqueleto.jpg" alt="Ilustração de células">
-        <div>
-            <h2>Aprenda Como as Células Funcionam</h2>
-            <p>Entenda os processos fundamentais que sustentam a vida em cada célula do seu corpo.</p>
-            <button>Quero Explorar a Biologia Celular</button>
-        </div>
-    </section>
-
-    <section class="health-info">
-        <div class="info-box">Função do Citoplasma</div>
-        <div class="info-box">Movimentação pela Cinesina</div>
-        <div class="info-box">Estrutura do Citoesqueleto</div>
-        <div class="info-box">Importância da Ciclose</div>
-    </section>
-
+      </div>
     <footer>
         <p>&copy; 2024 Biologia Celular. Todos os direitos reservados.</p>
     </footer>
@@ -70,4 +130,5 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
 </body>
+
 </html>
